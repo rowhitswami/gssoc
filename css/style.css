@@ -95,9 +95,10 @@ footer.page-footer {
   transform: translateX(-50%);
 }
 
-.help-out .section-text{
+.section-text{
   text-align:center;
   font-size:140%;
+  line-height:130%;
 }
 
 .section-link{
@@ -115,7 +116,7 @@ background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, F
 }
 
 .landing {
-  height: 80vh;
+  height: 90vh;
 }
 
 .nav-wrapper.container {
