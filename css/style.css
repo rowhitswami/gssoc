@@ -1,16 +1,17 @@
 /* Custom Stylesheet */
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
  * Made By MaterializeCSS.com
  */
-.landing .image{
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
-}
 
+.landing .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -29,13 +30,14 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
-@media only screen and (max-width : 992px) {
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -45,7 +47,7 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
@@ -54,6 +56,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -64,81 +67,98 @@ footer.page-footer {
 
 .no-flicker {
   -webkit-backface-visibility: hidden;
-  -webkit-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
-.schedule{
-  width:80%;
+.schedule {
+  width: 80%;
 }
 
-.timeline-container{
-  width:90%;
-  padding-left:5%;
+.timeline-container {
+  width: 90%;
+  padding-left: 5%;
 }
 
-.section-heading{
+.section-heading {
   text-transform: uppercase;
-  
-  
 }
 
-.section-heading::after{
-  content:"";
+.section-heading::after {
+  content: "";
   display: block;
-  height:2px;
-  width:80px;
-  background-color:red;
-  margin-left:50%;
-  margin-top:15px;
-  margin-bottom:30px;
-  transform:translateX(-50%);
+  height: 2px;
+  width: 80px;
+  background-color: #f73e36;
+  margin-left: 50%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  transform: translateX(-50%);
 }
 
-.landing{
-  height:80vh;
+.help-out .section-text{
+  text-align:center;
+  font-size:140%;
 }
 
-.nav-wrapper.container{
-  width:90%;
+.section-link{
+  text-decoration: none;
+  background: #fe8c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin:30px 0;
+}
+
+.section-link i{
+  font-size:150%;
+}
+
+.landing {
+  height: 80vh;
+}
+
+.nav-wrapper.container {
+  width: 90%;
 }
 
 .timeline {
-list-style: none;
-margin: 80px 70px 25px 90px;
-max-width: 800px;
-padding: 0;
-position: relative;
--moz-box-sizing: border-box;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
+  list-style: none;
+  margin: 80px 70px 25px 90px;
+  max-width: 800px;
+  padding: 0;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .timeline-horizontal:after {
-border-top-width: 6px;
-border-left-width: 13px;
-border-color: transparent transparent transparent #3c3c3b;
-top: 15px;
-right: 0;
-bottom: auto;
-left: auto;
+  border-top-width: 6px;
+  border-left-width: 13px;
+  border-color: transparent transparent transparent #3c3c3b;
+  top: 15px;
+  right: 0;
+  bottom: auto;
+  left: auto;
 }
 
 .timeline-horizontal .timeline-milestone {
-border-top: 2px solid #00637d;
-display: inline;
-float: left;
-margin: 20px 0 0 0;
-padding: 40px 0 0 0;
+  border-top: 2px solid #00637d;
+  display: inline;
+  float: left;
+  margin: 20px 0 0 0;
+  padding: 40px 0 0 0;
 }
 
 .timeline-horizontal .timeline-milestone:before {
-top: -17px;
-left: auto;
+  top: -17px;
+  left: auto;
 }
 
 .timeline-horizontal .timeline-milestone.is-completed:after {
-top: -17px;
-left: 0;
+  top: -17px;
+  left: 0;
 }
 
 .timeline-milestone {
@@ -152,26 +172,26 @@ left: 0;
 }
 
 .timeline-milestone:before {
-border-radius: 50%;
-content: "";
-display: block;
-position: absolute;
-left: -9px;
-width: 14px;
-height: 14px;
--moz-box-sizing: border-box;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  position: absolute;
+  left: -9px;
+  width: 14px;
+  height: 14px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .timeline-last {
-border-left: 4px solid transparent;
+  border-left: 4px solid transparent;
 }
 
 .timeline-milestone.no-dot:before {
-width:0px;
-height:0px
-} 
+  width: 0px;
+  height: 0px
+}
 
 .timeline-milestone:after {
   content: "10.00";
@@ -180,102 +200,118 @@ height:0px
   top: -3px;
   font-size: 14px;
 }
+
 .one:after {
-content: "01 Jun 2018";
+  content: "01 Jun 2018";
   position: absolute;
   left: -100px;
   top: -3px;
-  font-size: 14px;  
-}
-.two:after {
-content: "15 Jun 2018";
-  position: absolute;
-  left: -100px;
-  top: -3px;
-  font-size: 14px;  
-}
-.three:after {
-content: "15 Jul 2018";
-  position: absolute;
-  left: -100px;
-  top: -3px;
-  font-size: 14px;  
-}
-.four:after {
-content: "16 Jul 2018";
-  position: absolute;
-  left: -100px;
-  top: -3px;
-  font-size: 14px;  
-}
-.timeline-milestone.no-dot:after {
-content: ""
+  font-size: 14px;
 }
 
-.timeline-milestone.is-completed:before, .timeline-milestone.is-current:before {
-background-color: #FF9800;
+.two:after {
+  content: "15 Jun 2018";
+  position: absolute;
+  left: -100px;
+  top: -3px;
+  font-size: 14px;
+}
+
+.three:after {
+  content: "15 Jul 2018";
+  position: absolute;
+  left: -100px;
+  top: -3px;
+  font-size: 14px;
+}
+
+.four:after {
+  content: "16 Jul 2018";
+  position: absolute;
+  left: -100px;
+  top: -3px;
+  font-size: 14px;
+}
+
+.timeline-milestone.no-dot:after {
+  content: ""
+}
+
+.timeline-milestone.is-completed:before,
+.timeline-milestone.is-current:before {
+  background-color: #FF9800;
 }
 
 .timeline-action {
-padding: 16px 0px;
-position: relative;
-top: -22px;
-border-bottom: 1px solid #bfbfbf
-}
-.timeline-action.is-expandable {
-cursor: pointer;
-}
-.timeline-action.is-expandable .title {
-position: relative;
-}
-.timeline-action.is-expandable .title:focus {
-outline: 0;
-}
-.timeline-action.is-expandable .title:after {
-border: 6px solid #666;
-border-color: transparent transparent transparent #666;
-content: "";
-display: block;
-position: absolute;
-top: 6px;
-right: 0;
-}
-.timeline-action.is-expandable .content {
-height:0px;
-}
-.timeline-action.is-expandable.is-expanded .title:after {
-border-color: #666 transparent transparent transparent;
-top: 10px;
-right: 5px;
+  padding: 16px 0px;
+  position: relative;
+  top: -22px;
+  border-bottom: 1px solid #bfbfbf
 }
 
-.timeline-action .title, .timeline-action .content {
-word-wrap: break-word;
+.timeline-action.is-expandable {
+  cursor: pointer;
 }
-.timeline-action .title {
-font-size: 18px;
-margin: 0;
+
+.timeline-action.is-expandable .title {
+  position: relative;
 }
-.timeline-action .date {
-display: block;
-font-size: 14px;
-margin-bottom: 15px;
+
+.timeline-action.is-expandable .title:focus {
+  outline: 0;
 }
+
+.timeline-action.is-expandable .title:after {
+  border: 6px solid #666;
+  border-color: transparent transparent transparent #666;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+
+.timeline-action.is-expandable .content {
+  height: 0px;
+}
+
+.timeline-action.is-expandable.is-expanded .title:after {
+  border-color: #666 transparent transparent transparent;
+  top: 10px;
+  right: 5px;
+}
+
+.timeline-action .title,
 .timeline-action .content {
-font-size: 14px;
-line-height:1.5em;
-max-width:90%;
-font-weight:100;
+  word-wrap: break-word;
+}
+
+.timeline-action .title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.timeline-action .date {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.timeline-action .content {
+  font-size: 14px;
+  line-height: 1.5em;
+  max-width: 90%;
+  font-weight: 100;
 }
 
 .timeline-action .content span {
-display: inline-block;
-padding:12px 0px;
-display:none;
+  display: inline-block;
+  padding: 12px 0px;
+  display: none;
 }
 
 .timeline-last .timeline-action {
-border: none;
+  border: none;
 }
 
 .option-toggle {
@@ -292,31 +328,33 @@ border: none;
   border-bottom-right-radius: 4px;
   color: #fff;
   cursor: pointer;
-  -webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-  -moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-  -ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-  box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+  -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
 }
+
 .option-toggle i {
   top: 2px;
   position: relative;
 }
-.option-toggle:hover, .option-toggle:focus, .option-toggle:active {
-  color:  #fff;
+
+.option-toggle:hover,
+.option-toggle:focus,
+.option-toggle:active {
+  color: #fff;
   text-decoration: none;
   outline: none;
 }
 
-.fa-heart{
-  color:red;
+.fa-heart {
+  color: red;
   font-size: 20px;
 }
 
-@media (max-width:800px){
+@media (max-width:800px) {
   .schedule {
     width: 100%;
     padding-left: 5%;
-}
-
-
+  }
 }
