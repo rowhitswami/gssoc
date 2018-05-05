@@ -73,6 +73,25 @@ footer.page-footer {
 
 .timeline-container{
   width:90%;
+  padding-left:5%;
+}
+
+.section-heading{
+  text-transform: uppercase;
+  
+  
+}
+
+.section-heading::after{
+  content:"";
+  display: block;
+  height:2px;
+  width:80px;
+  background-color:red;
+  margin-left:50%;
+  margin-top:15px;
+  margin-bottom:30px;
+  transform:translateX(-50%);
 }
 
 .landing{
@@ -291,4 +310,13 @@ border: none;
 .fa-heart{
   color:red;
   font-size: 20px;
+}
+
+@media (max-width:800px){
+  .schedule {
+    width: 100%;
+    padding-left: 5%;
+}
+
+
 }
