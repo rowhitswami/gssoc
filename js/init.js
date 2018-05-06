@@ -73,7 +73,9 @@ var waypoint = new Waypoint({
 				alert("Schedule Up");
 			}
 	},
-	offset:400
+	offset:400,
+	
+	
 });
 
 let scrollpos = window.scrollY;
