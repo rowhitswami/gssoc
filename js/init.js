@@ -61,20 +61,6 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-var waypoint = new Waypoint({
-	element: document.querySelector(".schedule"),
-	handler: function(direction){
-		if(direction == "down")
-			{
-				alert("Schedule Down");
-			}
-		else
-			{
-				alert("Schedule Up");
-			}
-	},
-	offset:400
-});
 
 let scrollpos = window.scrollY;
 const header = document.querySelector("#nav-bar");
