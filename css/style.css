@@ -7,16 +7,16 @@
  * Made By MaterializeCSS.com
  */
 
+ *{
+   box-sizing: border-box;
+ }
+
 .landing .image {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
 }
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
 
 p {
   line-height: 2rem;
@@ -116,7 +116,7 @@ background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, F
 }
 
 .landing {
-  height: 90vh;
+  height: 100vh;
 }
 
 .nav-wrapper.container {
@@ -358,4 +358,133 @@ background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, F
     width: 100%;
     padding-left: 5%;
   }
+
+  
 }
+
+nav{
+  background-color: transparent;
+  box-shadow:none;
+  width: 100%;
+ 
+  margin:0;
+}
+
+nav.scroll-down{
+  background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#logo-container{
+  opacity: 0;
+  -webkit-transition:all 200ms ease-in-out;
+-moz-transition:all 200ms ease-in-out;
+-o-transition:all 200ms ease-in-out;
+}
+
+.scroll-down #logo-container{
+  opacity: 1;
+  font-family: 'Oswald', sans-serif;
+  -webkit-transition:all 200ms ease-in-out;
+-moz-transition:all 200ms ease-in-out;
+-o-transition:all 200ms ease-in-out;
+  
+}
+
+nav.scroll-down ul li{
+  margin:0 5px;
+  font-size:120%;
+  text-transform: uppercase;
+  font-weight:bold;
+  color:#CCC;
+  text-decoration: none;
+  cursor: pointer;
+  color:black;
+  -webkit-transition:all 200ms ease-in-out;
+-moz-transition:all 200ms ease-in-out;
+-o-transition:all 200ms ease-in-out;
+}
+
+nav ul a{
+  text-decoration: none;
+  cursor: pointer;
+  color:white;
+  -webkit-transition:all 200ms ease-in-out;
+-moz-transition:all 200ms ease-in-out;
+-o-transition:all 200ms ease-in-out;
+  
+}
+
+.navbar-fixed{
+  position: absolute;
+  top:0;
+  width:100%;
+  height:60px;
+  -webkit-transition:all 200ms ease-in-out;
+-moz-transition:all 200ms ease-in-out;
+-o-transition:all 200ms ease-in-out;
+  
+  
+ 
+}
+
+nav.scroll-up ul li{
+  margin:0 5px;
+  font-size:120%;
+  text-transform: uppercase;
+  font-weight:bold;
+  -webkit-transition:all 200ms ease-in-out;
+-moz-transition:all 200ms ease-in-out;
+-o-transition:all 200ms ease-in-out;
+}
+
+nav.scroll-up ul li:hover{
+ 
+  border-bottom:4px solid orange;
+  -webkit-transition:all 200ms ease-in-out;
+-moz-transition:all 200ms ease-in-out;
+-o-transition:all 200ms ease-in-out;
+}
+
+#index-banner h5{
+  font-family:'Oswald', sans-serif;
+  font-weight: 400;
+  font-size:350%;
+  color:white;
+  text-align: center;
+
+-webkit-transition:all 200ms ease-in-out;
+-moz-transition:all 200ms ease-in-out;
+-o-transition:all 200ms ease-in-out;
+}
+
+#index-banner .row{
+  margin-top:15%;
+  
+}
+
+#index-banner .row::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 200px;
+  background-color: #f73e36;
+  margin-left: 50%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  transform: translateX(-50%);
+}
+#index-banner img{
+  filter:brightness(50%);
+}
+
+.small{
+  font-size:70%;
+  text-transform: uppercase;
+}
+
+

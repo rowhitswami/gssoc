@@ -8,43 +8,44 @@
 
   <!-- CSS  -->
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
-  <div class="navbar-fixed">
-    <nav class="orange" role="navigation">
+ <div class="navbar-fixed">
+    <nav id="nav-bar" class="scroll-up" role="navigation">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo white-text">Girlscript Summer Of Code</a>
-        <ul class="right hide-on-med-and-down">
+        <a id="logo-container" href="#" class="brand-logo white-text">GIRLSCRIPT Summer Of Code</a>
+        <ul class="right hide-on-med-and-down main-menu">
           <li>
-            <a href="#">About Us</a>
+            <a href="#register"><b>REGISTER</b></a>
           </li>
           <li>
-            <a href="#">Code Of Conduct</a>
+            <a href="#about">About Us</a>
           </li>
           <li>
-            <a href="#">Sponsors</a>
+            <a href="#sponsors">Sponsors</a>
           </li>
           <li>
-            <a href="#"></a>
+            <a href="#contactus">Contact Us</a>
           </li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
           <li>
-            <a href="#">About us</a>
+            <a href="#register">REGISTER</a>
           </li>
           <li>
-            <a href="#">Code Of Conduct</a>
+            <a href="#about">About Us</a>
           </li>
           <li>
-            <a href="#">Sponsors</a>
+            <a href="#sponsors">Sponsors</a>
           </li>
           <li>
-            <a href="#"></a>
+            <a href="#contactus">Contact Us</a>
           </li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger">
@@ -55,26 +56,22 @@
   </div>
 
   <div id="index-banner" class="landing parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br>
-        <br>
+   
+     
+      
         <div class="row center">
-          <h5 class="header col s12 light"></h5>
+          <h5 class="header col s12 white-text"><span class="small">GirlScript</span><br>Summer of Code 2018</h5>
         </div>
 
-        <br>
-        <br>
-
-      </div>
-    </div>
+     
+   
     <div class="parallax">
       <img src="images/background1.jpeg" class="image" alt="Unsplashed background img 1">
     </div>
   </div>
 
 
-  <div class="container">
+  <div class="container" id="about">
     <div class="section">
         <h4 class="header section-heading center">About GirlScript</h4>
         <h5 class="header left-align light section-text">Girlscript Summer Of Code is a 3-month long open source project under Girlscript India to build the main website of GirlScript, GirlScript mobile app and websites for various GirlScript Chapters.</h5>
@@ -117,7 +114,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="register">
       <div class="section">
           <h4 class="header section-heading center">REGISTER HERE</h4>
         <!--   Icon Section   -->
@@ -206,7 +203,7 @@
   </div>
 
 
-  <div class="container">
+  <div class="container" id="sponsors">
       <div class="section">
           <h4 class="header section-heading center">Sponsors</h4>
           <h6 class="header left-align light section-text" style="margin-bottom:30px;">Sponsors make it possible for Girlscript Summer Of Code to provide the perks for participants. Their generous donations allow students to participate in the program and focus on learning. Sponsors receive a great deal of publicity and exposure as a result of the program. So register to be a sponsor today!</h6>
@@ -273,6 +270,7 @@
 
 
   <!--  Scripts-->
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
