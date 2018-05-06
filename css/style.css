@@ -475,22 +475,12 @@ nav.scroll-up ul li:hover{
 }
 
 #index-banner .row{
-  margin-top:15%;
+  margin-top:16%;
   
 }
 
-#index-banner .row::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 200px;
-  background-color: #f73e36;
-  margin-left: 50%;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  transform: translateX(-50%);
-}
-#index-banner img{
+
+#index-banner .image{
   filter:brightness(50%);
 }
 
@@ -499,4 +489,15 @@ nav.scroll-up ul li:hover{
   text-transform: uppercase;
 }
 
+#index-banner .logo-type{
+  height:200px;
+}
 
+.nav-logo-type{
+  height:50px;
+  margin-top:2.4%;
+}
+
+.footer-logo{
+  height:150px;
+}
