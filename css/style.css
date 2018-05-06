@@ -11,6 +11,17 @@
    box-sizing: border-box;
  }
 
+.js .to-animate,
+.js .to-animate-2,
+.js .single-animate {
+  opacity: 0;
+}
+
+.align{
+	text-align: left;
+	font-size: 140%;
+    line-height: 130%;
+}
 .landing .image {
   background-repeat: no-repeat;
   background-size: cover;

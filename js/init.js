@@ -48,6 +48,16 @@
         }, 1000, function(){});
     });
 
+ $(document).ready(function(){
+ 
+  // hide our element on page load
+  $('#1').css('opacity', 0);
+ 
+  $('#1').waypoint(function() {
+      $('#1').addClass('fadeInUp');
+  }, { offset: '50%' });
+ 
+});
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
