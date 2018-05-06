@@ -76,7 +76,7 @@ var waypoint = new Waypoint({
 	
 	},
 
-	offset:'50%'
+	offset:'30%'
 });
 
 var waypoint = new Waypoint({
@@ -89,7 +89,7 @@ var waypoint = new Waypoint({
 	
 	},
 
-	offset:'50%'
+	offset:'90%'
 });
 
 var waypoint = new Waypoint({
@@ -102,7 +102,7 @@ var waypoint = new Waypoint({
 	
 	},
 
-	offset:'50%'
+	offset:'80%'
 });
 
 var waypoint = new Waypoint({
@@ -115,7 +115,7 @@ var waypoint = new Waypoint({
 	
 	},
 
-	offset:'50%'
+	offset:'80%'
 });
 
 var waypoint = new Waypoint({
@@ -128,7 +128,7 @@ var waypoint = new Waypoint({
 	
 	},
 
-	offset:'50%'
+	offset:'80%'
 });
 
 var waypoint = new Waypoint({
@@ -141,7 +141,7 @@ var waypoint = new Waypoint({
 	
 	},
 
-	offset:'50%'
+	offset:'80%'
 });
 
 var waypoint = new Waypoint({
@@ -154,7 +154,7 @@ var waypoint = new Waypoint({
 	
 	},
 
-	offset:'50%'
+	offset:'80%'
 });
 
 var waypoint = new Waypoint({
@@ -167,7 +167,7 @@ var waypoint = new Waypoint({
 	
 	},
 
-	offset:'50%'
+	offset:'80%'
 });
 
 var waypoint = new Waypoint({
