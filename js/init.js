@@ -51,31 +51,136 @@
 
  
   // hide our element on page load
-  $('#1').css('opacity', 0);
+  $('#htw-heading').css('opacity', 0);
+  $('#p-heading').css('opacity', 0);
+  $('#gs-heading').css('opacity', 0);
+  $('#coc-heading').css('opacity', 0);
+  $('#sc-heading').css('opacity', 0);
+  $('#reg-heading').css('opacity', 0);
+  $('#sch-heading').css('opacity', 0);
+  $('#ho-heading').css('opacity', 0);
  
-  $('#1').waypoint(function() {
-      $('#1').addClass('fadeInUp');
-  }, { offset: '50%' });
+
  
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
 var waypoint = new Waypoint({
-	element: document.querySelector(".schedule"),
+	element: document.querySelector("#gs-heading"),
 	handler: function(direction){
 		if(direction == "down")
 			{
-				alert("Schedule Down");
+				 $('#gs-heading').addClass('animated fadeInUp');
 			}
-		else
-			{
-				alert("Schedule Up");
-			}
+	
 	},
-	offset:400,
+
+	offset:'50%'
+});
+
+var waypoint = new Waypoint({
+	element: document.querySelector("#p-heading"),
+	handler: function(direction){
+		if(direction == "down")
+			{
+				 $('#p-heading').addClass('animated fadeInUp');
+			}
 	
+	},
+
+	offset:'50%'
+});
+
+var waypoint = new Waypoint({
+	element: document.querySelector("#coc-heading"),
+	handler: function(direction){
+		if(direction == "down")
+			{
+				 $('#coc-heading').addClass('animated fadeInUp');
+			}
 	
+	},
+
+	offset:'50%'
+});
+
+var waypoint = new Waypoint({
+	element: document.querySelector("#htw-heading"),
+	handler: function(direction){
+		if(direction == "down")
+			{
+				 $('#htw-heading').addClass('animated fadeInUp');
+			}
+	
+	},
+
+	offset:'50%'
+});
+
+var waypoint = new Waypoint({
+	element: document.querySelector("#sc-heading"),
+	handler: function(direction){
+		if(direction == "down")
+			{
+				 $('#sc-heading').addClass('animated fadeInUp');
+			}
+	
+	},
+
+	offset:'50%'
+});
+
+var waypoint = new Waypoint({
+	element: document.querySelector("#reg-heading"),
+	handler: function(direction){
+		if(direction == "down")
+			{
+				 $('#reg-heading').addClass('animated fadeInUp');
+			}
+	
+	},
+
+	offset:'50%'
+});
+
+var waypoint = new Waypoint({
+	element: document.querySelector("#ho-heading"),
+	handler: function(direction){
+		if(direction == "down")
+			{
+				 $('#ho-heading').addClass('animated fadeInUp');
+			}
+	
+	},
+
+	offset:'50%'
+});
+
+var waypoint = new Waypoint({
+	element: document.querySelector("#sch-heading"),
+	handler: function(direction){
+		if(direction == "down")
+			{
+				 $('#sch-heading').addClass('animated fadeInUp');
+			}
+	
+	},
+
+	offset:'50%'
+});
+
+var waypoint = new Waypoint({
+	element: document.querySelector("#htw-heading"),
+	handler: function(direction){
+		if(direction == "down")
+			{
+				 $('#htw-heading').addClass('animated fadeInUp');
+			}
+	
+	},
+
+	offset:400
 });
 
 let scrollpos = window.scrollY;
