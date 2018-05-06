@@ -48,7 +48,7 @@
         }, 1000, function(){});
     });
 
- $(document).ready(function(){
+
  
   // hide our element on page load
   $('#1').css('opacity', 0);
@@ -57,10 +57,24 @@
       $('#1').addClass('fadeInUp');
   }, { offset: '50%' });
  
-});
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
+var waypoint = new Waypoint({
+	element: document.querySelector(".schedule"),
+	handler: function(direction){
+		if(direction == "down")
+			{
+				alert("Schedule Down");
+			}
+		else
+			{
+				alert("Schedule Up");
+			}
+	},
+	offset:400
+});
 
 let scrollpos = window.scrollY;
 const header = document.querySelector("#nav-bar");
