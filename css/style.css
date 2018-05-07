@@ -223,7 +223,7 @@ background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, F
 }
 
 .two:after {
-  content: "15 Jun 2018";
+  content: "23 Jun 2018";
   position: absolute;
   left: -100px;
   top: -3px;
@@ -231,7 +231,7 @@ background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, F
 }
 
 .three:after {
-  content: "15 Jul 2018";
+  content: "23 Aug 2018";
   position: absolute;
   left: -100px;
   top: -3px;
@@ -239,7 +239,7 @@ background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, F
 }
 
 .four:after {
-  content: "16 Jul 2018";
+  content: "30 Aug 2018";
   position: absolute;
   left: -100px;
   top: -3px;
