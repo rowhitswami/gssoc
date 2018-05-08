@@ -489,21 +489,62 @@ nav.scroll-up ul li:hover{
   text-transform: uppercase;
 }
 
-#index-banner .logo-type{
-  height:200px;
-}
+
 
 .nav-logo-type{
   height:50px;
   margin-top:2.4%;
+  margin-left: 15%;
+}
+
+.nav-logo {
+  height:auto;
+  width: 100%;
+  margin-top:5%;
+  margin-left: 10%;
+}
+
+@media screen and (max-width:800px) {
+
+  .logo-type {
+    margin-top: 25%;
+  }
 }
 
 .footer-logo{
   height:150px;
 }
 
+footer a:hover {
+  color: #6100b1 !important;
+}
+
+div, footer {
+  outline: none;
+} 
+
 .footer-copyright{
   background: #222;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #222, #444);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #222, #444); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/* Social Media */
+ul.social {list-style:none;}
+ul.social li {display:inline; padding: 0; margin:0 5px;}
+ul.social li a {display:inline-block; margin:0 auto; -moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; text-align:center; width: 50px; height: 50px; font-size:20px; position:relative; background-color: #ff9800;}
+ul.social li a i {color:#FFF; text-align: center; margin:0; line-height:50px; -webkit-transition: all 0.8s; -moz-transition: all 0.8s; -o-transition: all 0.8s; -ms-transition: all 0.8s; transition: all 0.8s;}
+ul.social li a:hover i { -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -ms--transform: rotate(360deg);	transform: rotate(360deg);
+                         -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; -ms-transition: all 0.2s; transition: all 0.2s;}
+
+.social li a.face:hover {background-color:#3B5998;}
+.social li a.twit:hover {background-color:#33ccff;}
+.social li a.insta:hover {background-color:#8a3ab9;}
+.social li a.github:hover {background-color:#333;} 
+.social li a.linkedin:hover {background-color:#0077b5;} 
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+

@@ -205,5 +205,4 @@ window.addEventListener('scroll', function () {
   } else {
     remove_class_on_scroll();
   }
-  console.log(scrollpos);
 })
